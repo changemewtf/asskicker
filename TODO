@@ -1,0 +1,12 @@
+o Remove structs "command" and "state", we don't need objects
+for them, just put them in a big old switch statement, one for each.
+
+* Rethink GOB_ANIM_... scheme?
+Right now, state contains a GOB_ANIM_ index,
+which refers to the master list, instead of
+an animation relative to each sprite.
+
+* maybe some documentation would be nice, maybe
+
+* maybe instead of passing functions, which sucks, my god
+does it suck, there should just be a big switch statement.
